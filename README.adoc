@@ -7,9 +7,10 @@ Sources for tech talk @ MY.GAMES on Unreal Engine compilation cache
 
 == Building
 
-[source,bash]
+[source,shell]
 ----
-bundle install
+bundle config set --local path vendor/bundle
+bundle update
 bundle exec rake
 ----
 
