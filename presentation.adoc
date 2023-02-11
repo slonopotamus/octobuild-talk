@@ -1,0 +1,13 @@
+= Octobuild
+Марат Радченко <https://github.com/slonopotamus[@slonopotamus]>
+v1.0, 2023-02-14
+:source-highlighter: highlightjs
+:revealjs_hash: true
+:revealjs_theme: blood
+:revealjsdir: https://cdn.jsdelivr.net/npm/reveal.js@3.9.2
+:icons: font
+:imagesdir: images
+
+**{revdate}**
+
+== The End

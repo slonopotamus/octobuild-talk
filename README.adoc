@@ -1,0 +1,16 @@
+= Octobuild Talk
+
+Sources for tech talk @ MY.GAMES on Unreal Engine compilation cache
+
+* link:https://slonopotamus.github.io/octobuild-talk/presentation.html[Interactive HTML]
+* link:https://slonopotamus.github.io/octobuild-talk/presentation.html?print-pdf[Printable]
+
+== Building
+
+[source,bash]
+----
+bundle install
+bundle exec rake
+----
+
+And then, open `build/presentation.html`
