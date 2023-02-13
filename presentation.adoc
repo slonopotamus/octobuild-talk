@@ -10,4 +10,67 @@ v1.0, 2023-02-14
 
 **{revdate}**
 
+== Сервис, который делал ничего
+
+// TODO
+
+== Сожмём 100GB
+
+== !
+
+[%autowidth,cols="<,>,>,>"]
+|===
+| Name           | Compress   | Decompress | %
+
+| memcpy         | 10790 MB/s | 10790 MB/s |100
+| lz4 (default)  |   737 MB/s |  4448 MB/s | 47.6
+| zlib -1 (min)  |   119 MB/s |   383 MB/s | 36.5
+| zstd -2        |   356 MB/s |  1067 MB/s | 32.8
+| zlib (default) |    35 MB/s |   407 MB/s | 32.2
+| zstd (default) |   104 MB/s |   932 MB/s | 30.2
+|===
+
+// TODO
+
+== !
+
+`int main(int argc, char* argv[])`
+
+в Windows
+
+=== !
+
+[source,c]
+----
+BOOL CreateProcessA(
+  [in, optional]      LPCSTR                lpApplicationName,
+  [in, out, optional] LPSTR                 lpCommandLine, <1> <2> <3>
+  [in, optional]      LPSECURITY_ATTRIBUTES lpProcessAttributes,
+  [in, optional]      LPSECURITY_ATTRIBUTES lpThreadAttributes,
+  [in]                BOOL                  bInheritHandles,
+  [in]                DWORD                 dwCreationFlags,
+  [in, optional]      LPVOID                lpEnvironment,
+  [in, optional]      LPCSTR                lpCurrentDirectory,
+  [in]                LPSTARTUPINFOA        lpStartupInfo,
+  [out]               LPPROCESS_INFORMATION lpProcessInformation
+);
+----
+<1> **in+out**, они там больные что ли
+<2> Пейн, я не чувствую `char*[] argv`
+<3> Максимум 32'768, включая `NULL`
+
+// TODO
+
+== 32KB хватит каждому
+
+`cl.exe @<file>`
+
+// TODO
+
+== Non-Unicode пути
+
+// TODO
+
+== `cl.exe /Fo"C:\output with space.obj"`
+
 == Q & A
