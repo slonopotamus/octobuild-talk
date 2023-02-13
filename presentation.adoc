@@ -146,7 +146,14 @@ if (Platform == UnrealTargetPlatform.Win64) {
 | zstd (default) |   104 MB/s |   932 MB/s | 30.2
 |===
 
+[.columns]
 === LZ4 ❤️
+
+[.column]
+737 MB/s write
+
+[.column]
+4448 MB/s read
 
 == !
 
