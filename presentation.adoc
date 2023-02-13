@@ -17,7 +17,7 @@ Cache `.obj`/`.o`
 * `git clean -fdx`
 * `git checkout <branch>`
 
-=== FastBuild/Bazel/чотамещё
+=== FastBuild/Bazel/чо-там-ещё
 
 Unreal не умеет
 
